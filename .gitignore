@@ -1,20 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @maxbraynner Sign out
-9
-20 138 springframeworkguru/sfg-pet-clinic
- Code  Issues 16  Pull requests 3  Projects 0  Wiki  Insights
-sfg-pet-clinic/.gitignore
-2b4bcfe  on 11 Jul 2018
-@springframeworkguru springframeworkguru Initial Project Add
-    
-142 lines (118 sloc)  1.83 KB
 ######################
 # Project Specific
 ######################
@@ -156,16 +139,3 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
