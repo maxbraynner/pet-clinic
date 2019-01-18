@@ -1,4 +1,4 @@
-package com.max.petclinic.model;
+package petclinic.model;
 
 import java.time.LocalDate;
 

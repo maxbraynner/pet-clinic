@@ -1,4 +1,4 @@
-package com.max.petclinic.model;
+package petclinic.model;
 
 public class PetType {
 
@@ -6,5 +6,9 @@ public class PetType {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
