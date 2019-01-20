@@ -1,4 +1,4 @@
-package com.max.petclinic.services;
+package com.max.petclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

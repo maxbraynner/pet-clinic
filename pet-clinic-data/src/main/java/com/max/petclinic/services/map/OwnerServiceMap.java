@@ -1,10 +1,12 @@
-package com.max.petclinic.services;
+package com.max.petclinic.services.map;
 
 import com.max.petclinic.model.Owner;
+import com.max.petclinic.services.OwnerService;
 
+import java.util.List;
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -31,4 +33,8 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
         return super.findById(id);
     }
 
+    @Override
+    public List<Owner> findByLastName(String lastName) {
+        return null;
+    }
 }

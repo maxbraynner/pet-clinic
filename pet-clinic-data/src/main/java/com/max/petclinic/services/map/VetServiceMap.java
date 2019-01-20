@@ -1,13 +1,14 @@
-package com.max.petclinic.services;
+package com.max.petclinic.services.map;
 
-import com.max.petclinic.model.Pet;
+import com.max.petclinic.model.Vet;
+import com.max.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
-    public Set<Pet> findAll() {
+    public Set<Vet> findAll() {
         return super.findAll();
     }
 
@@ -17,17 +18,17 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
     }
 
     @Override
-    public void delete(Pet object) {
+    public void delete(Vet object) {
         super.delete(object);
     }
 
     @Override
-    public Pet save(Pet object) {
+    public Vet save(Vet object) {
         return super.save(object.getId(), object);
     }
 
     @Override
-    public Pet findById(Long id) {
+    public Vet findById(Long id) {
         return super.findById(id);
     }
 
